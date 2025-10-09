@@ -2,7 +2,7 @@
 
 - **Jacob Cobler**:
 - **cobler.12**:
-- **10/8/2025 @ 12:40 PM EST**:
+- **10/9/2025 @ 12:40 PM EST**:
 
 ## Assignment Overview
 
@@ -106,7 +106,7 @@ Below is further rationale/explanation for the rubric items above:
 > to create a new design. In you do end up picking one at random, you should
 > disclose that here as well.
 
-I decided to create the exercise component. I made a program in the past that keeps track of my workout schedule using Java and I made my own Exercise component but it was very finicky and I think I created it by extending the JPanel. I was very new to Java at the time and I would like to recreate it and make it more polished, procedural, and usable.
+I decided to create the Workout component. I made a program in the past that keeps track of my workout schedule using Java and I made my own Exercise component but it was very finicky and I think I created it by extending the JPanel. I was very new to Java at the time and I would like to recreate it and make it more polished, procedural, and usable.
 
 <!-- TODO: briefly argue your choice of design or design something
 new; then delete this comment -->
@@ -147,8 +147,6 @@ completed the assignment.
 
 ### Changelog
 
-<!-- TODO: update CHANGELOG then delete this comment -->
-
 At the end of every assignment, you should update the
 [CHANGELOG.md](../../CHANGELOG.md) file found in the root of the project folder.
 Here's what I would expect to see at the minimum:
@@ -180,8 +178,6 @@ like to accomplish that, you will need to make GitHub releases after each pull
 request merge (or at least tag your commits). This is not required.
 
 ### Submission
-
-<!-- TODO: read the submission instructions then delete this comment -->
 
 Assuming that your project is in a GitHub repo somewhere and your changes are on
 a proof-of-concept branch, then what we'll want you to do is create a pull
@@ -234,8 +230,6 @@ table).
 If you'd like to give feedback for this assignment (or any assignment, really),
 make use of [this survey][survey]. Your feedback helps make assignments
 better for future students.
-
-<!-- TODO: follow the link to share your feedback then delete this comment -->
 
 [pottery-fails]: https://www.youtube.com/shorts/Kqb9l113F_0?feature=share
 [survey]: https://forms.gle/dumXHo6A4Enucdkq9
