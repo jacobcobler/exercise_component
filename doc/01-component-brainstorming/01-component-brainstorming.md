@@ -1,8 +1,8 @@
 # Portfolio Part 1: Component Brainstorming
 
-- **Jacob Cobler**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) then delete this comment -->
-- **cobler.12**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) then delete this comment -->
-- **9/19/2025 @ 12:40 PM EST**: <!-- TODO: fill with due date and time (e.g., 10/17 @ 3:10 PM EST) then delete this comment -->
+- **Jacob Cobler**:
+- **cobler.12**:
+- **9/19/2025 @ 12:40 PM EST**:
 
 ## Assignment Overview
 
