@@ -13,3 +13,9 @@ the following form: YYYY.0M.0D.
 - Designed a `Playlist` component
 - Designed a `Workout` component
 - Designed a `Account` component
+
+## [2025.10.09]
+
+### Added
+
+- Designed a proof of concept for `Workout` component
