@@ -19,3 +19,9 @@ the following form: YYYY.0M.0D.
 ### Added
 
 - Designed a proof of concept for `Workout` component
+
+## [2025.10.23]
+
+### Added
+
+- Designed kernel and enhanced interfaces for `Workout` component
