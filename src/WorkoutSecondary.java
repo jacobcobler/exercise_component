@@ -132,4 +132,67 @@ public abstract class WorkoutSecondary implements Workout {
         }
     }
 
+    /**
+     * Implementation of {@code Workout.Exercise}.
+     */
+    protected static final class SimpleExercise extends Object
+            implements Workout.Exercise {
+
+        /**
+         * A variable to hold the name of {@code this}.
+         */
+        private String name;
+        /**
+         * A variable to hold the sets of {@code this}.
+         */
+        private int sets;
+        /**
+         * A variable to hold the reps of {@code this}.
+         */
+        private int reps;
+        /**
+         * A variable to hold the restTime of {@code this}.
+         */
+        private int restTime;
+
+        /**
+         * Constructor.
+         *
+         * @param name
+         *            name of exercise.
+         * @param sets
+         *            number of sets
+         * @param reps
+         *            numbers of reps
+         * @param restTime
+         *            total rest time
+         */
+        public SimpleExercise(String name, int sets, int reps, int restTime) {
+            this.name = name;
+            this.sets = sets;
+            this.reps = reps;
+            this.restTime = restTime;
+        }
+
+        @Override
+        public String name() {
+            return this.name;
+        }
+
+        @Override
+        public int sets() {
+            return this.sets;
+        }
+
+        @Override
+        public int reps() {
+            return this.reps;
+        }
+
+        @Override
+        public int restTime() {
+            return this.restTime;
+        }
+    }
+
 }
