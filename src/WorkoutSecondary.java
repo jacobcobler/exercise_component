@@ -133,7 +133,7 @@ public abstract class WorkoutSecondary implements Workout {
     }
 
     /**
-     * Implementation of {@code Workout.Exercise}.
+     * Implementation of {@code Workout.Exercise} interface.
      */
     protected static final class SimpleExercise extends Object
             implements Workout.Exercise {
@@ -159,13 +159,13 @@ public abstract class WorkoutSecondary implements Workout {
          * Constructor.
          *
          * @param name
-         *            name of exercise.
+         *            the name to be set
          * @param sets
-         *            number of sets
+         *            the associated sets to be set
          * @param reps
-         *            numbers of reps
+         *            the associated reps to be set
          * @param restTime
-         *            total rest time
+         *            the associated rest time to be set
          */
         public SimpleExercise(String name, int sets, int reps, int restTime) {
             this.name = name;

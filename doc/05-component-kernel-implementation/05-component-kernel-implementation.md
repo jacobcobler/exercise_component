@@ -118,7 +118,7 @@ Below is further rationale/explanation for the rubric items above:
 > discuss how that representation will be restricted (i.e., by convention)
 > and interpreted (i.e., by correspondence).
 
-I will use a java.util.List because the size needs to be flexable since you can add and remove Excerises. Another reason is that the List provides a "proper sequence" that will be beneficial to the order of the Workout, similar to how a Queue operates.
+I will use a java.util.List because the size needs to be flexable since you can add and remove Excerises. Another reason is that the List provides a "proper sequence" that will be beneficial to the order of the Workout, similar to how a Queue operates. This reason will correspond with the correspondence. The convention could be simple like not letting any entires in the List be null, this would follow the OSU discipline. Besides that there aren't really any limitations for the representation.
 
 > To start making your kernel implementation, make a branch off of main in your
 > new repo called something like `kernel-implementation`. There are many ways to

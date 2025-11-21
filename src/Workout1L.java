@@ -7,7 +7,7 @@ import java.util.NoSuchElementException;
  * {@code Workout} represented as a {@link java.util.List java.util.List} with
  * implementations of primary methods.
  *
- * @convention
+ * @convention $this.rep.entries /= null
  * @correspondence <pre>
  * this = [value of $this.rep based on List's "proper sequence"]
  * </pre>
