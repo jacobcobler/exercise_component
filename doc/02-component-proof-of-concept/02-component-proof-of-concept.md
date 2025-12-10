@@ -106,10 +106,7 @@ Below is further rationale/explanation for the rubric items above:
 > to create a new design. In you do end up picking one at random, you should
 > disclose that here as well.
 
-I decided to create the Workout component. I made a program in the past that keeps track of my workout schedule using Java and I made my own Exercise component but it was very finicky and I think I created it by extending the JPanel. I was very new to Java at the time and I would like to recreate it and make it more polished, procedural, and usable.
-
-<!-- TODO: briefly argue your choice of design or design something
-new; then delete this comment -->
+I decided to create the Workout component. I made a program in the past that keeps track of my workout schedule using Java and I made my own Exercise component but it was very finicky and I think I created it by extending the JPanel. I was very new to Java at the time and I would like to recreate it and make it more polished, procedural, and usable. So this will be very useful for keeping track of my workout.
 
 > Once you've argued your choice of design, make a branch in your new repo called
 > something like `proof-of-concept`. There are many ways to do this, but my
@@ -119,8 +116,6 @@ new; then delete this comment -->
 > VSCode to run git commands. It's entirely up to you. Regardless of your choice,
 > we'll want a branch that you can later make a pull request from with all
 > your changes.
-
-<!-- TODO: make a new branch from main then delete this comment -->
 
 ## Assignment Tasks
 
@@ -199,8 +194,6 @@ recommend keeping the pull request open until at least a peer has had a chance
 to look over your changes. Otherwise, you defer needed changes to later pull
 requests, which could sacrifice the overall quality of your work or result in
 major rework.
-
-<!-- TODO: paste the URL to Carmen then delete this comment -->
 
 ### Peer Review
 
