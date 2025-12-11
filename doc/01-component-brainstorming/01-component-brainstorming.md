@@ -185,15 +185,14 @@ will likely refine your design to make your implementation easier to use.
 - Component Design #1: `Playlist`
 
   - **Description**:
-    - The purpose of this component is to create a way to store data for a playlist to hold music. The kernal should hold simple value, enough to control the playlist, then the secondary will have some more advanced controls.
+    - The purpose of this component is to create a way to store songs in a playlist. The kernal should hold simple value, enough to control the playlist, then the secondary will have some more advanced controls.
   - **Kernel Methods**:
     - `void enqueue(String song)`: adds the `song` to end of `this`.
     - `void dequeue(String song)`: removes the first instance of `song` in `this`.
-    - `int size()`: reports the size of `this`.
-    - `String next()`: returns the first song of `this`.
+    - `int listSize()`: reports the size of `this`.
   - **Secondary Methods**:
     - `void replace(int pos, String song)`: replaces the song at `pos` with `song`.
-    - `String next()`: returns what song of `this` is first.
+    - `String getNext()`: returns what song of `this` is first.
     - `void playNext(int pos)`: Moves the song at `pos` to the top of the playlist.
     - `void flip()`: Reverses `this`.
     - ...
@@ -211,7 +210,7 @@ will likely refine your design to make your implementation easier to use.
       - No it shoudln't require any enums or constants.
     - Can you implement your secondary methods using your kernel methods?
       Answer, explain, and give at least one example:
-      - Yes. The method `list()` will require knowing the `size()` of the `Playlist`.
+      - Yes. The method `playNext()` will require knowing the `size()` of the `Playlist` as to know the position is in the range and what spot the recursion is at.
 
 - Component Design #2: `Workout`
 

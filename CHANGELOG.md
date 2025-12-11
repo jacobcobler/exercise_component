@@ -8,6 +8,12 @@ the following form: YYYY.0M.0D.
 
 ## [2025.11.21]
 
+### Updated
+
+- Fixed Part 1 - Component Brainstorming
+
+## [2025.11.21]
+
 ### Added
 
 - Designed kernel implementation for Workout component
