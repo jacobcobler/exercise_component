@@ -6,6 +6,25 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Calendar Versioning](https://calver.org/) of
 the following form: YYYY.0M.0D.
 
+## [2025.12.10]
+
+### Added
+
+- Designed test suite for Workout component
+- Designed two different use cases for Workout component
+
+### Updated
+
+- Changed Abstract Inplementation to fix toString() method
+- Changed Abstract Inplementation to fix Workout.SimpleExercise.toString() method
+- Changed Abstract Inplementation to fix flip() method
+- Changed Abstract Inplementation to fix replace() method
+- Changed Abstract Inplementation to fix equals() method
+- Changed Abstract Inplementation to add RADIX method
+- Fixed Step 2 In A Different Pull Request (so changes may not appear here)
+- Fixed Step 1 In A Different Pull Request (so changes may not appear here)
+- Fixed the component directory
+
 ## [2025.11.21]
 
 ### Added
