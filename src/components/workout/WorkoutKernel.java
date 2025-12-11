@@ -1,3 +1,5 @@
+package components.workout;
+
 import components.standard.Standard;
 
 /**

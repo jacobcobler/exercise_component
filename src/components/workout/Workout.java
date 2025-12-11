@@ -1,3 +1,5 @@
+package components.workout;
+
 /**
  * {@code WorkoutKernel} enhanced with secondary methods.
  *
